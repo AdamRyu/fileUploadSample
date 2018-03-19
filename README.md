@@ -5,6 +5,12 @@ This is a sample RESTFul web service used to upload, download and retrieve meta-
 ### Functions:
 • Upload file<br/>
 HttpMethod.POST<br/>
+<br/>
+Need to change upload location in the properties file, and create the upload folder in advance.<br/>
+For security reason, file's name will be converted to "yyyyMMddHHmmss" format.<br/>
+Download service will be added in future.
+<br/>
+<br/>
 /file/upload<br/><br/>
 • Get meta-data for one file:<br/>
 HttpMethod.GET<br/>

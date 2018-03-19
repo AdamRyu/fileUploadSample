@@ -14,13 +14,4 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	/*
-	@Bean
-	CommandLineRunner runner(FileInfoRepository repository){
-		return args -> {
-			//repository.save( new FileInfo("TEST-1"));
-			//repository.save( new FileInfo("AAA-2"));
-		};
-	}*/
-
 }
